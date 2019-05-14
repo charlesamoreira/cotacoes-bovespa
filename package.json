@@ -1,0 +1,33 @@
+{
+  "name": "cotacoes-bovespa",
+  "version": "1.0.1",
+  "description": "Node.js API para obter as cotações da bovespa",
+  "main": "stock-prices.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlesamoreira/cotacoes-bovespa.git"
+  },
+  "keywords": [
+    "bovespa",
+    "bvfm",
+    "financial",
+    "financeiro",
+    "investimento"
+  ],
+  "author": "Charles Almeida",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charlesamoreira/cotacoes-bovespa/issues"
+  },
+  "homepage": "https://github.com/charlesamoreira/cotacoes-bovespa#readme"
+}
