@@ -2,7 +2,7 @@
   "name": "cotacoes-bovespa",
   "version": "1.0.1",
   "description": "Node.js API para obter as cotações da bovespa",
-  "main": "stock-prices.js",
+  "main": "cotacoes-bovespa.js",
   "directories": {
     "test": "tests"
   },
