@@ -25,6 +25,19 @@ cotacoesBovespa.getCurrentQuote('PETR4', function(err, quote){
 });
 ```
 
+# example historical data
+
+```js
+var cotacoesBovespa = require('cotacoes-bovespa');
+
+
+cotacoesBovespa.getHistoricalData("PETR4", function (err, quotes) {
+
+	console.log(quotes);
+
+});
+```
+
 # api
 
 ### getCurrentQuote(ticker, callback)
